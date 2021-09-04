@@ -13,6 +13,8 @@
 		DD7E771926E3776A0003CB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7E771726E3776A0003CB00 /* Main.storyboard */; };
 		DD7E771B26E3776F0003CB00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7E771A26E3776F0003CB00 /* Assets.xcassets */; };
 		DD7E771E26E3776F0003CB00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7E771C26E3776F0003CB00 /* LaunchScreen.storyboard */; };
+		DD7E772726E3AE6F0003CB00 /* AddNewRecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7E772626E3AE6F0003CB00 /* AddNewRecordTableViewController.swift */; };
+		DD7E772926E3E5540003CB00 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7E772826E3E5540003CB00 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DD7E771A26E3776F0003CB00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD7E771D26E3776F0003CB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD7E771F26E3776F0003CB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7E772626E3AE6F0003CB00 /* AddNewRecordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecordTableViewController.swift; sourceTree = "<group>"; };
+		DD7E772826E3E5540003CB00 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,23 @@
 			children = (
 				DD7E771126E3776A0003CB00 /* AppDelegate.swift */,
 				DD7E771326E3776A0003CB00 /* SceneDelegate.swift */,
-				DD7E771526E3776A0003CB00 /* ViewController.swift */,
 				DD7E771726E3776A0003CB00 /* Main.storyboard */,
+				DD7E772526E3AE460003CB00 /* Controller */,
 				DD7E771A26E3776F0003CB00 /* Assets.xcassets */,
 				DD7E771C26E3776F0003CB00 /* LaunchScreen.storyboard */,
 				DD7E771F26E3776F0003CB00 /* Info.plist */,
+				DD7E772826E3E5540003CB00 /* Constants.swift */,
 			);
 			path = "No-Money2";
+			sourceTree = "<group>";
+		};
+		DD7E772526E3AE460003CB00 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD7E771526E3776A0003CB00 /* ViewController.swift */,
+				DD7E772626E3AE6F0003CB00 /* AddNewRecordTableViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7E772926E3E5540003CB00 /* Constants.swift in Sources */,
 				DD7E771626E3776A0003CB00 /* ViewController.swift in Sources */,
+				DD7E772726E3AE6F0003CB00 /* AddNewRecordTableViewController.swift in Sources */,
 				DD7E771226E3776A0003CB00 /* AppDelegate.swift in Sources */,
 				DD7E771426E3776A0003CB00 /* SceneDelegate.swift in Sources */,
 			);
